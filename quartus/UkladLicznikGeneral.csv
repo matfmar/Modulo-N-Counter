@@ -1,0 +1,46 @@
+# Copyright (C) 2023  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+# File: /root/fpga/ProjektSekwencyjny/quartus/UkladLicznikGeneral.csv
+# Generated on: Sun May 21 20:38:58 2023
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+button_inc,Input,PIN_A7,7,B7_N0,3.3 V Schmitt Trigger,,,,,
+button_reset,Input,PIN_B8,7,B7_N0,3.3 V Schmitt Trigger,,,,,
+led,Output,PIN_A8,7,B7_N0,3.3-V LVTTL,,,,,
+osc_clock,Input,PIN_P11,3,B3_N0,3.3-V LVTTL,,,,,
+seg7in[7],Output,PIN_D15,7,B7_N0,3.3-V LVTTL,,,,,
+seg7in[6],Output,PIN_C17,7,B7_N0,3.3-V LVTTL,,,,,
+seg7in[5],Output,PIN_D17,7,B7_N0,3.3-V LVTTL,,,,,
+seg7in[4],Output,PIN_E16,7,B7_N0,3.3-V LVTTL,,,,,
+seg7in[3],Output,PIN_C16,7,B7_N0,3.3-V LVTTL,,,,,
+seg7in[2],Output,PIN_C15,7,B7_N0,3.3-V LVTTL,,,,,
+seg7in[1],Output,PIN_E15,7,B7_N0,3.3-V LVTTL,,,,,
+seg7in[0],Output,PIN_C14,7,B7_N0,3.3-V LVTTL,,,,,
+seg7out[7],Output,PIN_L19,6,B6_N0,3.3-V LVTTL,,,,,
+seg7out[6],Output,PIN_N20,6,B6_N0,3.3-V LVTTL,,,,,
+seg7out[5],Output,PIN_N19,6,B6_N0,3.3-V LVTTL,,,,,
+seg7out[4],Output,PIN_M20,6,B6_N0,3.3-V LVTTL,,,,,
+seg7out[3],Output,PIN_N18,6,B6_N0,3.3-V LVTTL,,,,,
+seg7out[2],Output,PIN_L18,6,B6_N0,3.3-V LVTTL,,,,,
+seg7out[1],Output,PIN_K20,6,B6_N0,3.3-V LVTTL,,,,,
+seg7out[0],Output,PIN_J20,6,B6_N0,3.3-V LVTTL,,,,,
+switch_enable,Input,PIN_C12,7,B7_N0,3.3-V LVTTL,,,,,
+switches_op[2],Input,PIN_D12,7,B7_N0,3.3-V LVTTL,,,,,
+switches_op[1],Input,PIN_C11,7,B7_N0,3.3-V LVTTL,,,,,
+switches_op[0],Input,PIN_C10,7,B7_N0,3.3-V LVTTL,,,,,

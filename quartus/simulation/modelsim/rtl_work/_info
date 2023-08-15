@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/root/fpga/ProjektSekwencyjny/quartus/simulation/modelsim
+vCounter
+Z1 !s110 1684843615
+!i10b 1
+!s100 ObDN9;T7c3z>>Wg>hWcUe2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_iQm];RBWESHFzk6WfFTm1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1684693031
+8/root/fpga/ProjektSekwencyjny/quartus/Counter.v
+F/root/fpga/ProjektSekwencyjny/quartus/Counter.v
+!i122 2
+L0 1 66
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1684843615.000000
+!s107 /root/fpga/ProjektSekwencyjny/quartus/Counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/root/fpga/ProjektSekwencyjny/quartus|/root/fpga/ProjektSekwencyjny/quartus/Counter.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+/root/fpga/ProjektSekwencyjny/quartus
+Z8 tCvgOpt 0
+n@counter
+vDecoder
+R1
+!i10b 1
+!s100 [FhMDaKWFTT1RcS;Lgl:?3
+R2
+IMj?6_BPji3j2:<Bl9dmlW2
+R3
+R0
+w1684683006
+8/root/fpga/ProjektSekwencyjny/quartus/Decoder.v
+F/root/fpga/ProjektSekwencyjny/quartus/Decoder.v
+!i122 1
+L0 1 52
+R4
+r1
+!s85 0
+31
+R5
+!s107 /root/fpga/ProjektSekwencyjny/quartus/Decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/root/fpga/ProjektSekwencyjny/quartus|/root/fpga/ProjektSekwencyjny/quartus/Decoder.v|
+!i113 1
+R6
+R7
+R8
+n@decoder
+vUkladLicznik
+R1
+!i10b 1
+!s100 nGdHzVA;L>4I<L7AP@5AB1
+R2
+I6Ram;9abAEbYK_48[i=iI0
+R3
+R0
+w1684843544
+8/root/fpga/ProjektSekwencyjny/quartus/UkladLicznik.v
+F/root/fpga/ProjektSekwencyjny/quartus/UkladLicznik.v
+!i122 3
+L0 1 72
+R4
+r1
+!s85 0
+31
+R5
+!s107 /root/fpga/ProjektSekwencyjny/quartus/UkladLicznik.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/root/fpga/ProjektSekwencyjny/quartus|/root/fpga/ProjektSekwencyjny/quartus/UkladLicznik.v|
+!i113 1
+R6
+R7
+R8
+n@uklad@licznik
+vUserInput
+R1
+!i10b 1
+!s100 >3@6W0bUog1X97??7RXDM2
+R2
+IWd<3HWGCfe2_A7]mbOC:F3
+R3
+R0
+w1684692211
+8/root/fpga/ProjektSekwencyjny/quartus/UserInput.v
+F/root/fpga/ProjektSekwencyjny/quartus/UserInput.v
+!i122 0
+L0 1 24
+R4
+r1
+!s85 0
+31
+R5
+!s107 /root/fpga/ProjektSekwencyjny/quartus/UserInput.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/root/fpga/ProjektSekwencyjny/quartus|/root/fpga/ProjektSekwencyjny/quartus/UserInput.v|
+!i113 1
+R6
+R7
+R8
+n@user@input

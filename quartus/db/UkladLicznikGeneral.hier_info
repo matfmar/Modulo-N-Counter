@@ -1,0 +1,135 @@
+|UkladLicznikGeneral
+led <= UkladLicznik:inst.y
+osc_clock => UkladLicznik:inst.clk_board
+button_reset => UkladLicznik:inst.reset
+button_inc => UkladLicznik:inst.data_inc
+switch_enable => UkladLicznik:inst.enable
+switches_op[0] => UkladLicznik:inst.opcode_switches[0]
+switches_op[1] => UkladLicznik:inst.opcode_switches[1]
+switches_op[2] => UkladLicznik:inst.opcode_switches[2]
+seg7in[0] <= UkladLicznik:inst.data_number[0]
+seg7in[1] <= UkladLicznik:inst.data_number[1]
+seg7in[2] <= UkladLicznik:inst.data_number[2]
+seg7in[3] <= UkladLicznik:inst.data_number[3]
+seg7in[4] <= UkladLicznik:inst.data_number[4]
+seg7in[5] <= UkladLicznik:inst.data_number[5]
+seg7in[6] <= UkladLicznik:inst.data_number[6]
+seg7in[7] <= UkladLicznik:inst.data_number[7]
+seg7out[0] <= UkladLicznik:inst.result_number[0]
+seg7out[1] <= UkladLicznik:inst.result_number[1]
+seg7out[2] <= UkladLicznik:inst.result_number[2]
+seg7out[3] <= UkladLicznik:inst.result_number[3]
+seg7out[4] <= UkladLicznik:inst.result_number[4]
+seg7out[5] <= UkladLicznik:inst.result_number[5]
+seg7out[6] <= UkladLicznik:inst.result_number[6]
+seg7out[7] <= UkladLicznik:inst.result_number[7]
+
+
+|UkladLicznikGeneral|UkladLicznik:inst
+clk_board => clk_board.IN1
+reset => Counter:COUNTER.reset_async
+data_inc => data_inc.IN1
+opcode_switches[0] => Counter:COUNTER.opcode[0]
+opcode_switches[1] => Counter:COUNTER.opcode[1]
+opcode_switches[2] => Counter:COUNTER.opcode[2]
+enable => enable.IN1
+data_number[0] <= Decoder:USER_DECODER.a
+data_number[1] <= Decoder:USER_DECODER.b
+data_number[2] <= Decoder:USER_DECODER.c
+data_number[3] <= Decoder:USER_DECODER.d
+data_number[4] <= Decoder:USER_DECODER.e
+data_number[5] <= Decoder:USER_DECODER.f
+data_number[6] <= Decoder:USER_DECODER.g
+data_number[7] <= Decoder:USER_DECODER.dot
+result_number[0] <= Decoder:RESULT_DECODER.a
+result_number[1] <= Decoder:RESULT_DECODER.b
+result_number[2] <= Decoder:RESULT_DECODER.c
+result_number[3] <= Decoder:RESULT_DECODER.d
+result_number[4] <= Decoder:RESULT_DECODER.e
+result_number[5] <= Decoder:RESULT_DECODER.f
+result_number[6] <= Decoder:RESULT_DECODER.g
+result_number[7] <= Decoder:RESULT_DECODER.dot
+y <= Counter:COUNTER.y
+
+
+|UkladLicznikGeneral|UkladLicznik:inst|UserInput:USER_INPUT
+clk => ~NO_FANOUT~
+user_clk => number[0].CLK
+user_clk => number[1].CLK
+user_clk => number[2].CLK
+user_clk => number[3].CLK
+enable => number.OUTPUTSELECT
+enable => number.OUTPUTSELECT
+enable => number.OUTPUTSELECT
+enable => number.OUTPUTSELECT
+data[0] <= number[0].DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= number[1].DB_MAX_OUTPUT_PORT_TYPE
+data[2] <= number[2].DB_MAX_OUTPUT_PORT_TYPE
+data[3] <= number[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|UkladLicznikGeneral|UkladLicznik:inst|Decoder:USER_DECODER
+data_in[0] => Decoder0.IN3
+data_in[1] => Decoder0.IN2
+data_in[2] => Decoder0.IN1
+data_in[3] => Decoder0.IN0
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+dot <= <VCC>
+
+
+|UkladLicznikGeneral|UkladLicznik:inst|Counter:COUNTER
+reset_async => value[0].ACLR
+reset_async => value[1].ACLR
+reset_async => value[2].ACLR
+reset_async => value[3].ACLR
+clk => value[0].CLK
+clk => value[1].CLK
+clk => value[2].CLK
+clk => value[3].CLK
+opcode[0] => Equal0.IN31
+opcode[0] => Equal1.IN2
+opcode[0] => Equal2.IN0
+opcode[0] => Equal3.IN1
+opcode[0] => Equal4.IN2
+opcode[1] => Equal0.IN30
+opcode[1] => Equal1.IN0
+opcode[1] => Equal2.IN2
+opcode[1] => Equal3.IN0
+opcode[1] => Equal4.IN1
+opcode[2] => Equal0.IN29
+opcode[2] => Equal1.IN1
+opcode[2] => Equal2.IN1
+opcode[2] => Equal3.IN2
+opcode[2] => Equal4.IN0
+data[0] => Mod0.IN7
+data[1] => Mod0.IN6
+data[2] => Mod0.IN5
+data[3] => Mod0.IN4
+y <= value[0].DB_MAX_OUTPUT_PORT_TYPE
+result[0] <= value[0].DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= value[1].DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= value[2].DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= value[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|UkladLicznikGeneral|UkladLicznik:inst|Decoder:RESULT_DECODER
+data_in[0] => Decoder0.IN3
+data_in[1] => Decoder0.IN2
+data_in[2] => Decoder0.IN1
+data_in[3] => Decoder0.IN0
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+dot <= <VCC>
+
+

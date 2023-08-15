@@ -1,0 +1,15 @@
+/root/fpga/ProjektSekwencyjny/Counter.v {1 {vlog -work work -stats=none /root/fpga/ProjektSekwencyjny/Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} /root/fpga/ProjektSekwencyjny/testbench.v {1 {vlog -work work -stats=none /root/fpga/ProjektSekwencyjny/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

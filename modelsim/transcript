@@ -1,0 +1,59 @@
+# Loading project ProjektSekwencyjny
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 14:34:05 on May 23,2023
+# Loading work.testbench
+# Loading work.Counter
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'COUNTER'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/COUNTER File: /root/fpga/ProjektSekwencyjny/testbench.v Line: 18
+# ** Warning: (vsim-3722) /root/fpga/ProjektSekwencyjny/testbench.v(18): [TFMPC] - Missing connection for port 'enable'.
+run -all
+# ** Note: $stop    : /root/fpga/ProjektSekwencyjny/testbench.v(47)
+#    Time: 50 us  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /root/fpga/ProjektSekwencyjny/testbench.v line 47
+add wave -position end  sim:/testbench/N
+add wave -position end  sim:/testbench/WIDTH
+add wave -position end  sim:/testbench/HALF_TIME
+add wave -position end  sim:/testbench/END_SIM
+add wave -position end  sim:/testbench/reset
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/opcode
+add wave -position end  sim:/testbench/data
+add wave -position end  sim:/testbench/result
+add wave -position end  sim:/testbench/y
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'COUNTER'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/COUNTER File: /root/fpga/ProjektSekwencyjny/testbench.v Line: 18
+# ** Warning: (vsim-3722) /root/fpga/ProjektSekwencyjny/testbench.v(18): [TFMPC] - Missing connection for port 'enable'.
+run -all
+# ** Note: $stop    : /root/fpga/ProjektSekwencyjny/testbench.v(47)
+#    Time: 50 us  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /root/fpga/ProjektSekwencyjny/testbench.v line 47
+quit -sim
+# End time: 14:36:42 on May 23,2023, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 3
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 14:38:03 on May 23,2023
+# Loading work.testbench
+# Loading work.Counter
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'COUNTER'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/COUNTER File: /root/fpga/ProjektSekwencyjny/testbench.v Line: 18
+# ** Warning: (vsim-3722) /root/fpga/ProjektSekwencyjny/testbench.v(18): [TFMPC] - Missing connection for port 'enable'.
+add wave -position end  sim:/testbench/N
+add wave -position end  sim:/testbench/WIDTH
+add wave -position end  sim:/testbench/HALF_TIME
+add wave -position end  sim:/testbench/END_SIM
+add wave -position end  sim:/testbench/reset
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/opcode
+add wave -position end  sim:/testbench/data
+add wave -position end  sim:/testbench/result
+add wave -position end  sim:/testbench/y
+run -all
+# ** Note: $stop    : /root/fpga/ProjektSekwencyjny/testbench.v(47)
+#    Time: 50 us  Iteration: 0  Instance: /testbench
+# Break in Module testbench at /root/fpga/ProjektSekwencyjny/testbench.v line 47
+# End time: 15:04:41 on May 23,2023, Elapsed time: 0:26:38
+# Errors: 0, Warnings: 8

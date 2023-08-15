@@ -1,0 +1,177 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/root/fpga/CounterUpDown/sim
+vCounter
+Z0 !s110 1684692198
+!i10b 1
+!s100 Qli63PDVQXEHKLCJj:n^73
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IMVb^AKFa7bh6Dm?@eDj9l2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/root/fpga/ProjektSekwencyjny/modelsim
+w1684681696
+8/root/fpga/ProjektSekwencyjny/Counter.v
+F/root/fpga/ProjektSekwencyjny/Counter.v
+!i122 82
+L0 1 67
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1684692198.000000
+!s107 /root/fpga/ProjektSekwencyjny/Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/root/fpga/ProjektSekwencyjny/Counter.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@counter
+vDecoder
+R0
+!i10b 1
+!s100 h]SeRMnKMDKE^k<_^8Vnd1
+R1
+I[YV2[IN>]Dm@RdbgFcMHS0
+R2
+R3
+w1684682904
+Z8 8/root/fpga/ProjektSekwencyjny/Decoder.v
+Z9 F/root/fpga/ProjektSekwencyjny/Decoder.v
+!i122 83
+L0 1 52
+R4
+r1
+!s85 0
+31
+R5
+Z10 !s107 /root/fpga/ProjektSekwencyjny/Decoder.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|/root/fpga/ProjektSekwencyjny/Decoder.v|
+!i113 1
+R6
+R7
+n@decoder
+vDekoder
+!s110 1684680728
+!i10b 1
+!s100 Z:dl`4YW>hV]01gJIocW33
+R1
+I7dliP<m?6KzVllB7J=;Zc0
+R2
+R3
+w1684669617
+R8
+R9
+!i122 13
+L0 1 33
+R4
+r1
+!s85 0
+31
+!s108 1684680728.000000
+R10
+R11
+!i113 1
+R6
+R7
+n@dekoder
+vtestbench
+R0
+!i10b 1
+!s100 >;PhJoY=B^l`;9^ImM^Fm0
+R1
+Im0ED3f@K[8E:X@5PG7G9C2
+R2
+R3
+w1684664549
+8/root/fpga/ProjektSekwencyjny/testbench.v
+F/root/fpga/ProjektSekwencyjny/testbench.v
+!i122 81
+L0 2 49
+R4
+r1
+!s85 0
+31
+R5
+!s107 /root/fpga/ProjektSekwencyjny/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/root/fpga/ProjektSekwencyjny/testbench.v|
+!i113 1
+R6
+R7
+vtestbench2
+R0
+!i10b 1
+!s100 [<Tz=S0kGN>0@nE2DUIjD2
+R1
+IiCESUNF:J4FBn_Hi:O7HH2
+R2
+R3
+w1684685472
+8/root/fpga/ProjektSekwencyjny/testbench2.v
+F/root/fpga/ProjektSekwencyjny/testbench2.v
+!i122 84
+L0 2 52
+R4
+r1
+!s85 0
+31
+R5
+!s107 /root/fpga/ProjektSekwencyjny/testbench2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/root/fpga/ProjektSekwencyjny/testbench2.v|
+!i113 1
+R6
+R7
+vUkladLicznikGeneral
+R0
+!i10b 1
+!s100 Uak5dIIoL^bJDSUFdbo<C0
+R1
+IQ3H6AZVK?zUB6d?5aFPM91
+R2
+R3
+w1684686089
+8/root/fpga/ProjektSekwencyjny/UkladLicznikGeneral.v
+F/root/fpga/ProjektSekwencyjny/UkladLicznikGeneral.v
+!i122 85
+L0 1 70
+R4
+r1
+!s85 0
+31
+R5
+!s107 /root/fpga/ProjektSekwencyjny/UkladLicznikGeneral.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/root/fpga/ProjektSekwencyjny/UkladLicznikGeneral.v|
+!i113 1
+R6
+R7
+n@uklad@licznik@general
+vUserInput
+R0
+!i10b 1
+!s100 U143UclTkE1Vl3XT84]iX0
+R1
+I512:8b49cE9GUb@`IBGaO0
+R2
+R3
+w1684692192
+8/root/fpga/ProjektSekwencyjny/UserInput.v
+F/root/fpga/ProjektSekwencyjny/UserInput.v
+!i122 86
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 /root/fpga/ProjektSekwencyjny/UserInput.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/root/fpga/ProjektSekwencyjny/UserInput.v|
+!i113 1
+R6
+R7
+n@user@input
